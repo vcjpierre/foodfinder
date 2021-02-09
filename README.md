@@ -11,7 +11,7 @@ A food finder app using React Native.
 git clone https://github.com/vcjpierre/react-native-food-finder.git
 
 # Navigate to clonned folder and Install dependencies
-cd react-native-social-app && npm install
+cd react-native-food-finder && npm install
 
 # Install Pods
 cd ios && pod install
