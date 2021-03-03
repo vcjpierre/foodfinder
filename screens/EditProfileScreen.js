@@ -21,7 +21,7 @@ import ImagePicker from 'react-native-image-crop-picker';
 
 const EditProfileScreen = () => {
 
-  const [image, setImage] = useState('https://api.adorable.io/avatars/80/abott@adorable.png');
+  const [image, setImage] = useState('https://api.hello-avatar.com/adorables/eyes3.png');
   const {colors} = useTheme();
 
   const takePhotoFromCamera = () => {

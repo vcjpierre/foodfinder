@@ -124,7 +124,7 @@ const HomeStackScreen = ({navigation}) => {
                 <Avatar.Image
                   source={{
                     uri:
-                      'https://api.adorable.io/avatars/80/abott@adorable.png',
+                      'https://api.hello-avatar.com/adorables/eyes3.png',
                   }}
                   size={30}
                 />

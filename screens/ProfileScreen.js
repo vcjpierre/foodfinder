@@ -37,7 +37,7 @@ const ProfileScreen = () => {
         <View style={{flexDirection: 'row', marginTop: 15}}>
           <Avatar.Image
             source={{
-              uri: 'https://api.adorable.io/avatars/80/abott@adorable.png',
+              uri: 'https://api.hello-avatar.com/adorables/eyes3.png',
             }}
             size={80}
           />
@@ -119,7 +119,7 @@ const ProfileScreen = () => {
         </TouchableRipple>
         <TouchableRipple onPress={() => {}}>
           <View style={styles.menuItem}>
-            <Icon name="settings-outline" color="#FF6347" size={25} />
+            <Icon name="cog-outline" color="#FF6347" size={25} />
             <Text style={styles.menuItemText}>Settings</Text>
           </View>
         </TouchableRipple>
