@@ -36,7 +36,7 @@ const SignInScreen = ({navigation}) => {
     const { signIn } = React.useContext(AuthContext);
 
     const textInputChange = (val) => {
-        if( val.trim().length >= 4 ) {
+        if (val.trim().length >= 4 ) {
             setData({
                 ...data,
                 username: val,
@@ -54,7 +54,7 @@ const SignInScreen = ({navigation}) => {
     }
 
     const handlePasswordChange = (val) => {
-        if( val.trim().length >= 8 ) {
+        if (val.trim().length >= 8 ) {
             setData({
                 ...data,
                 password: val,
@@ -77,7 +77,7 @@ const SignInScreen = ({navigation}) => {
     }
 
     const handleValidUser = (val) => {
-        if( val.trim().length >= 4 ) {
+        if (val.trim().length >= 4 ) {
             setData({
                 ...data,
                 isValidUser: true
@@ -96,14 +96,14 @@ const SignInScreen = ({navigation}) => {
             return userName == item.username && password == item.password;
         } );
 
-        if ( data.username.length == 0 || data.password.length == 0 ) {
+        if (data.username.length == 0 || data.password.length == 0 ) {
             Alert.alert('Wrong Input!', 'Username or password field cannot be empty.', [
                 {text: 'Okay'}
             ]);
             return;
         }
 
-        if ( foundUser.length == 0 ) {
+        if (foundUser.length == 0 ) {
             Alert.alert('Invalid User!', 'Username or password is incorrect.', [
                 {text: 'Okay'}
             ]);

@@ -2,9 +2,7 @@ import React from 'react';
 import { 
     View, 
     Text, 
-    Button, 
     TouchableOpacity, 
-    Dimensions,
     TextInput,
     Platform,
     StyleSheet,
@@ -28,7 +26,7 @@ const SignInScreen = ({navigation}) => {
     });
 
     const textInputChange = (val) => {
-        if( val.length !== 0 ) {
+        if (val.length !== 0 ) {
             setData({
                 ...data,
                 username: val,

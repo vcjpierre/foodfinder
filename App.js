@@ -157,7 +157,7 @@ const App = () => {
     }, 3500);
   }, []);
 
-  if( loginState.isLoading ) {
+  if (loginState.isLoading ) {
     return(
       <View style={{flex:1,justifyContent:'center',alignItems:'center'}}>
         <LottieView source={require('./assets/lottie-animation.json')} autoPlay loop />
