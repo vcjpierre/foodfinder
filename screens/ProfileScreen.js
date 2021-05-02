@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
   },
   menuItem: {
     flexDirection: 'row',
-    paddingVertical: 15,
+    paddingVertical: 10,
     paddingHorizontal: 30,
   },
   menuItemText: {
