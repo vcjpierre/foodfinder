@@ -3,7 +3,7 @@
 <p align="center">A food finder app using React Native</p>
 
 <p align="center">
-  <img src="https://res.cloudinary.com/dbpwbtkis/image/upload/v1626282680/Presentation_ijp7s3.png"/>
+  <img src="https://res.cloudinary.com/dbpwbtkis/image/upload/v1626283694/Presentation_ztwmzx.png"/>
 </p>
 
 <p align="center">
@@ -20,20 +20,23 @@
 git clone https://github.com/vcjpierre/foodfinder.git
 
 # Navigate to clonned folder and Install dependencies
-cd react-native-food-finder && npm install
+cd foodfinder && yarn install
 
 # Install Pods
 cd ios && pod install
 ```
 
 2. Open in your emulator
+
 Run this command to start the development server and to start your app on the emulator:
 ```
-npx run android
+yarn start
+yarn android
 ```
-Or, if you prefer Android:
+Or, if you prefer iOS:
 ```
-npx run ios
+yarn start
+yarn ios
 ```
 
 ## Packages Used
